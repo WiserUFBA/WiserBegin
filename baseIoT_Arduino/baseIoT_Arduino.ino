@@ -6,9 +6,9 @@
 #define MQTT_PORT     1883
 
 // Pins used
-#define LUMINOSITY    A1
-#define LAMP          11
-#define TEMPERATURE   A0
+#define LUMINOSITY    A3
+#define SOM           A2
+#define TEMPERATURE   6
 
 
 //Hash that represents the attributes
