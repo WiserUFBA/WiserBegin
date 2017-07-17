@@ -194,7 +194,6 @@ bool set(uint8_t id,int value) {
   switch (id) {
     case ID_lamp:
       ATMSerial.println("Lamp!");
-      lamp_actuator(LAMP,value);
       break;
     default:
       return false;
